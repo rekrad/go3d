@@ -2,9 +2,9 @@ package mat4
 
 import (
 	math "github.com/barnex/fmath"
-	"github.com/ungerik/go3d/mat3"
-	"github.com/ungerik/go3d/vec3"
-	"github.com/ungerik/go3d/vec4"
+	"github.com/rekrad/go3d/mat3"
+	"github.com/rekrad/go3d/vec3"
+	"github.com/rekrad/go3d/vec4"
 	"testing"
 )
 

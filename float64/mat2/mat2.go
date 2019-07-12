@@ -4,8 +4,8 @@ package mat2
 import (
 	"fmt"
 
-	"github.com/ungerik/go3d/float64/generic"
-	"github.com/ungerik/go3d/float64/vec2"
+	"github.com/rekrad/go3d/float64/generic"
+	"github.com/rekrad/go3d/float64/vec2"
 )
 
 var (

@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	math "github.com/barnex/fmath"
-	"github.com/ungerik/go3d/generic"
+	"github.com/rekrad/go3d/generic"
 )
 
 var (

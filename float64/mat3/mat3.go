@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/ungerik/go3d/float64/generic"
-	"github.com/ungerik/go3d/float64/mat2"
-	"github.com/ungerik/go3d/float64/quaternion"
-	"github.com/ungerik/go3d/float64/vec2"
-	"github.com/ungerik/go3d/float64/vec3"
+	"github.com/rekrad/go3d/float64/generic"
+	"github.com/rekrad/go3d/float64/mat2"
+	"github.com/rekrad/go3d/float64/quaternion"
+	"github.com/rekrad/go3d/float64/vec2"
+	"github.com/rekrad/go3d/float64/vec3"
 )
 
 var (

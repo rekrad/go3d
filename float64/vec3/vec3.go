@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/ungerik/go3d/float64/generic"
+	"github.com/rekrad/go3d/float64/generic"
 )
 
 var (
@@ -317,4 +317,28 @@ func (vec *T) Clamped01() T {
 	result := *vec
 	result.Clamp01()
 	return result
+}
+
+func (vec *T) X() float64 {
+	return vec[0]
+}
+
+func (vec *T) Y() float64 {
+	return vec[1]
+}
+
+func (vec *T) Z() float64 {
+	return vec[2]
+}
+
+func (vec *T) SetX(x float64) {
+	vec[0] = x
+}
+
+func (vec *T) SetY(y float64) {
+	vec[1] = y
+}
+
+func (vec *T) SetZ(z float64) {
+	vec[2] = z
 }
