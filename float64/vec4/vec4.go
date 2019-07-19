@@ -878,3 +878,35 @@ func (vec *T) Clamped01() T {
 	result.Clamp01()
 	return result
 }
+
+func (vec *T) X() float64 {
+	return vec[0]
+}
+
+func (vec *T) Y() float64 {
+	return vec[1]
+}
+
+func (vec *T) Z() float64 {
+	return vec[2]
+}
+
+func (vec *T) W() float64 {
+	return vec[3]
+}
+
+func (vec *T) SetX(x float64) {
+	vec[0] = x
+}
+
+func (vec *T) SetY(y float64) {
+	vec[1] = y
+}
+
+func (vec *T) SetZ(z float64) {
+	vec[2] = z
+}
+
+func (vec *T) SetW(w float64) {
+	vec[3] = w
+}
