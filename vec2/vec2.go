@@ -304,3 +304,19 @@ func (vec *T) Clamped01() T {
 	result.Clamp01()
 	return result
 }
+
+func (vec T) X() float32 {
+	return vec[0]
+}
+
+func (vec T) Y() float32 {
+	return vec[1]
+}
+
+func (vec *T) SetX(x float32) {
+	vec[0] = x
+}
+
+func (vec *T) SetY(y float32) {
+	vec[1] = y
+}

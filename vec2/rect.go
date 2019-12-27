@@ -41,10 +41,19 @@ func (rect *Rect) Intersects(other *Rect) bool {
 		other.Min[1] <= rect.Max[1]
 }
 
-// func Intersect(a, b *Rect) Rect {
-// 	panic("not implemented")
-// }
+// 根据max min算出width
+func (rect *Rect) Width() float32 {
+	return rect.Max.X() - rect.Min.X()
+}
 
-// func Join(a, b *Rect) Rect {
-// 	panic("not implemented")
-// }
+// 根据max min算出height
+func (rect *Rect) Height() float32 {
+	return rect.Max.Y() - rect.Min.Y()
+}
+
+func (rect *Rect)SetPosition(pos *T, width float32, height float32) {
+	rect.Min.SetX(pos.X())
+	rect.Min.SetY(pos.Y())
+	rect.Max.SetX(pos.X() + width)
+	rect.Max.SetY(pos.Y() + height)
+}
